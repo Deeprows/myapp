@@ -31,7 +31,7 @@ jobs:
         uses: gradle/actions/setup-gradle@v5
 
       - name: Generate Gradle wrapper
-        run: gradle wrapper --gradle-version 8.13
+        run: gradle wrapper --gradle-version: 9.5.1
 
       - name: Build debug APK
         run: ./gradlew assembleDebug
