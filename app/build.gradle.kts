@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.deeprows.footbolive"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.deeprows.footbolive"
